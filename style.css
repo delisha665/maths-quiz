@@ -1,0 +1,47 @@
+.body_backgorund {
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    font-size: 50px;
+    color: brown;
+}
+#login1,#login2 {
+    background-color:bisque;
+    float:none;
+    border: 3px solid brown;
+    border-radius: 15px;
+    padding:20px;
+    margin-top: 10px;
+    width:40%;
+}
+#player1_login,#player2_login {
+    display: inline-block;
+    width:30%;
+}
+h2 {
+    color:rgb(142, 113, 74);
+    font-size: 30px;
+}
+#logIn {
+    background-color: rgb(183, 162, 120);
+    width:20%;
+    margin-left: 50px;
+
+}
+#body1{
+    background-color:bisque;
+
+}
+#output{
+    border: 5px inset black;
+    float:none;
+    width:60%;
+    background-color: antiquewhite;
+} 
+#logIn {
+    width:300px;
+    height:100%;
+background-color: aqua;
+}

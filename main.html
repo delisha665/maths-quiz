@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="game_page.js"></script>
+</head>
+
+<body id="body1">
+	<h3 id="p1_name"></h3>
+		<span id="p1_score">0</span>
+	
+	<h3 id="p2_name"></h3>
+		<span id="p2_score">0</span>
+	
+<div class="container">
+	
+	<center>
+		<h2 style="color: rgb(60, 62, 27);">MATH QUIZ</h2>
+<h3 id="question_turn"></h3>
+<h3 id="answer_turn"></h3>
+<br>
+<h4>Enter the operation for your math operation</h4>
+<label>(*:multiplication)<br>(+:addition)<br>(-:subtraction)<br>(/:division)</label>
+<input id="sign" class="form-control" placeholder="Enter the operation from your keyboard" style="width: 30%;">
+		<br>
+		<br>
+<div id="output" class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
+
+</div>
+<br>
+<h4>NUMBER 1</h4>
+<input id="number1" class="form-control" placeholder="Enter 1st number" type="number type="number">
+<h4>NUMBER 2</h4>
+<input id="number2" class="form-control" placeholder="Enter 2nd number" type="number" type="number">
+
+<br>
+<button class="btn btn-primary" onclick="submit()" style="width:30%">Submit</button>
+		<br>
+
+	</center>
+</div>
+
+<script src="game_page.js"></script>
+</body>
+
+</html>
